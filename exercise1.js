@@ -118,7 +118,34 @@ whyThis.speak = function() {
 
 whyThis.speak()
 
+const spices = [
+    {name: "Emma", nickname: "Baby"},
+    {name: "Geri", nickname: "Ginger"},
+    {name: "Mel B", nickname: "Scary"},
+    {name: "Mel C", nickname: "Sporty"},
+    {name: "Victoria", nickname: "Posh"}
+];
 
+const spiceGirls = {
+    albums: ["Spice", "Spiceworld", "Forever"],
+    motto: "Girl Power",
+    members: spices
+};
 
+spiceGirls.motto
+spiceGirls.albums[1]
+spices[4].name
+spiceGirls.members[4].name
+spiceGirls.members[1]
+
+function add3(x, y, z) {
+    console.log("My parameters are named x, y, z");
+    console.log("I received the arguments", x, y, z);
+    return x + y + z;
+};
+
+const sum2= add3(4,5,6);
+
+sum2
 
 
